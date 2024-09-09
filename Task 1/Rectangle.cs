@@ -2,7 +2,7 @@
 {
     public class Rectangle
     {
-        private double _side1, _side2;
+        private readonly double _side1, _side2;
         public Rectangle(double side1, double side2)
         {
             _side1 = side1;
