@@ -1,15 +1,17 @@
 ﻿namespace Task_8
 {
-    internal class Position
+    public class Position
     {
-        private int _salary, _age;
+        private int _age;
+        private double _salary;
 
         public string Name { get; private set; } = string.Empty;
-        public int Salary 
+        public double Garbage { get; private set; } = 0.222;
+        public double Salary 
         { 
             get 
             { 
-                return _salary; 
+                return _salary * Garbage + Age * Garbage; 
             } 
             set 
             {
@@ -43,7 +45,7 @@
             }
         }
 
-        public Position(string name, int salary, int age)
+        public Position(string name, double salary, int age)
         {
             Age = age;
             Name = name;
