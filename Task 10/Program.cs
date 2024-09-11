@@ -1,4 +1,5 @@
-﻿namespace Task_10;
+﻿//Variant 11
+namespace Task_10;
 
 public static class Program
 {
